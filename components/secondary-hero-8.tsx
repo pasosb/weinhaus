@@ -16,7 +16,7 @@ export default function HeroSection() {
                         <p className="text-muted-foreground mb-6 mt-4 text-balance text-lg">Wir schließen unseren Laden vollständig zum 31.12.2025.<br></br> Daher findet am 07.11 und 08.11 ein Abverkauf statt. <br></br> FR 15-19 Uhr. Samstag 10-13 Uhr.</p>
 
                         <Button asChild>
-                            <Link href="#link">Routenplaner</Link>
+                            <Link href="https://www.google.com/maps/place/Weinhaus+Anneliese+Schmitz/@51.33419,7.8585851,1383m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47b95b57b57bdf8b:0x6c0f6ffec55bb609!8m2!3d51.33419!4d7.86116!16s%2Fg%2F1tlvnmf9?entry=ttu&g_ep=EgoyMDI1MTAyOC4wIKXMDSoASAFQAw%3D%3D">Routenplaner</Link>
                         </Button>
 
                         <Button
