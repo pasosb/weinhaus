@@ -13,11 +13,19 @@ export default function HeroSection() {
                     <div className="mx-auto max-w-4xl text-center">
                         <span className="text-primary bg-primary/5 border-primary/10 rounded-full border px-2 py-1 text-sm font-medium">Abverkauf</span>
                         <h1 className="mt-4 text-balance text-4xl font-semibold md:text-5xl lg:text-6xl">Abverkauf von Wein, Spirituosen und Likören.</h1>
-                        <p className="text-muted-foreground mb-6 mt-4 text-balance text-lg">Wir schließen unseren Laden vollständig zum 31.12.2025.<br></br> Daher findet am 07.11 und 08.11 ein Abverkauf statt.</p>
+                        <p className="text-muted-foreground mb-6 mt-4 text-balance text-lg">Wir schließen unseren Laden vollständig zum 31.12.2025.<br></br> Daher findet am 07.11 und 08.11 ein Abverkauf statt. <br></br> FR 15-19 Uhr. Samstag 10-13 Uhr.</p>
 
                         <Button asChild>
                             <Link href="#link">Routenplaner</Link>
                         </Button>
+
+                        <Button
+                            asChild
+                            variant="secondary"
+                            className="ml-3">
+                            <Link href="/impressum">Impressum</Link>
+                        </Button>
+                        
                     </div>
                 </div>
             </div>
